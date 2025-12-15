@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,54 +12,53 @@
     }
 
     body {
-      font-family: Inter, Helvetica, Arial, sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
       background: #ffffff;
       color: #111;
-      padding: 80px 24px;
+      padding: 32px 20px; /* ← МІНІМАЛЬНІ ПОЛЯ */
     }
 
     .container {
-      max-width: 960px;
-      margin: 0 auto;
+      width: 100%;
+      max-width: none; /* ← НЕ ОБМЕЖУЄМО ШИРИНУ */
     }
 
     h1 {
-      font-size: 42px;
-      font-weight: 600;
-      margin-bottom: 12px;
+      font-size: 48px;
+      font-weight: 500;
+      margin-bottom: 8px;
     }
 
     .subtitle {
       font-size: 18px;
       color: #555;
-      margin-bottom: 60px;
+      margin-bottom: 48px;
     }
 
     section {
-      margin-bottom: 80px;
+      margin-bottom: 72px;
     }
 
     h2 {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 500;
-      margin-bottom: 24px;
+      margin-bottom: 20px;
     }
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 24px;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
     }
 
     .work {
-      border: 1px solid #eee;
-      padding: 20px;
-      min-height: 180px;
+      border: 1px solid #eaeaea;
+      min-height: 220px;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #999;
       font-size: 14px;
+      color: #999;
     }
 
     .contact a {
@@ -68,7 +66,7 @@
       font-size: 18px;
       color: #111;
       text-decoration: none;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .contact a:hover {
@@ -76,7 +74,7 @@
     }
 
     footer {
-      margin-top: 120px;
+      margin-top: 100px;
       font-size: 14px;
       color: #888;
     }
